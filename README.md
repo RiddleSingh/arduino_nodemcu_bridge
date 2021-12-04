@@ -13,7 +13,8 @@ I2C used to communicate data between Arduino and NodeMCU
 |  A4       |  D1    |
 |  GND      |  GND   |
 
- 
+![nodemcu-arduino](https://user-images.githubusercontent.com/47292036/144721298-40cd3a91-ecd6-45a7-b419-578cd9c42118.jpg)
+ [source](https://www.electronicwings.com/nodemcu/nodemcu-i2c-with-arduino-ide)
 ## Setup Instructions for Node MCU
 1. Download or clone the github repo to your computer. 
 2. Follow [these instructions](https://docs.google.com/document/d/17QhpRgrozE3ZZsFBizJNyipnE-AXzO-qaewx7TUlNto/edit#heading=h.c6uv5nikp79h) setup your NodeMCU.
@@ -27,14 +28,11 @@ I2C used to communicate data between Arduino and NodeMCU
 7. Going back to the Arduino IDE, modify config.h so it has the appropriate username and key.
   ![image](https://user-images.githubusercontent.com/13370293/141795754-0cc49a75-e0c7-4a65-9f48-768a1c3b0d46.png)
 8. Back to the io.adafruit.com website, click on Dashboard > Welcome Dashboard (or a new one that you made). Under the gear icon on the right hand side, select **Create New Block** > **Line Chart**.  
-![image](https://user-images.githubusercontent.com/13370293/141811275-90756bc9-85ad-4972-82bd-63e98c0e584f.png)
+  ![image](https://user-images.githubusercontent.com/13370293/141811275-90756bc9-85ad-4972-82bd-63e98c0e584f.png)
 9. Create a new feed called "pulse" (all lowercase). Select it and click "Next step >"
-  ![image](https://user-images.githubusercontent.com/13370293/141811812-5db2c837-b124-4565-9dda-83dfd46a2b3f.png)
-  ![image](https://user-images.githubusercontent.com/13370293/141811950-999e0190-509a-4aea-986a-9888aeeb8e93.png)
-  ![image](https://user-images.githubusercontent.com/13370293/141812072-2863d796-67db-4a51-a9eb-1262d794d96b.png)
 10. In order to export data as a csv, follow [these instructions](https://io.adafruit.com/blog/tips/2016/09/12/exporting-data/).
 
-##Connections of Pulse Sensor
+## Sensor Connection
 |Arduino UNO| Pulse Sesnor|
 |:---------:|:-----------:|
 |  A0       |  BLACK      |
@@ -43,6 +41,9 @@ I2C used to communicate data between Arduino and NodeMCU
 
 ## Setup Instructions for Arduino UNO
 1. Open the ese111_arduino_bridge.ino file in the ese111_arduino_bridge folder
-2. Verify the correct COM port is selected
-3. Verify that the bord selected in "Arduino Uno"
-4. Upload the program. 
+2. In the Arduino IDE, install the following libraries:
+    - PulseSensor Playground
+![pulse sensor](https://user-images.githubusercontent.com/47292036/144721332-1dd29e71-14e6-48fb-b14b-08f669ebaf6e.png)
+3. Verify the correct COM port is selected
+4. Verify that the bord selected in "Arduino Uno"
+5. Upload the program. 
