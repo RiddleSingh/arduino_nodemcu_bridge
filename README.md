@@ -1,5 +1,5 @@
 # ESE111 Arduino NodeMCU Bride
-Author: Detkin Lab - ESE, UPenn
+Author: Bhagath Cheela
 
 ## Parts Required
 - 1 x NodeMCU 8266
