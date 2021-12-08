@@ -1,6 +1,6 @@
-# ESE111 Arduino NodeMCU Bride
+# ESE111 Arduino NodeMCU Bridge
 Author: Bhagath Cheela
-
+In this example project, we collect the data from pulse sensor using Arduino UNO and transfer this to NodeMCU using I2C. And from the Node MCU, the data is then uploaded to adafruit.
 ## Parts Required
 - 1 x NodeMCU 8266
 - 1 x Arduino UNO
@@ -13,8 +13,9 @@ I2C used to communicate data between Arduino and NodeMCU
 |  A4       |  D1    |
 |  GND      |  GND   |
 
-![nodemcu-arduino](https://user-images.githubusercontent.com/47292036/144721298-40cd3a91-ecd6-45a7-b419-578cd9c42118.jpg)
- [source](https://www.electronicwings.com/nodemcu/nodemcu-i2c-with-arduino-ide)
+![Picture1](https://user-images.githubusercontent.com/47292036/145168244-9d314053-d8ed-4a8e-aad0-9481635cc431.png)
+ [source1](https://www.electronicwings.com/nodemcu/nodemcu-i2c-with-arduino-ide)
+ [source2](https://github.com/ese-detkin-lab/ese218-lab7-adafruit.git)
 ## Setup Instructions for Node MCU
 1. Download or clone the github repo to your computer. 
 2. Follow [these instructions](https://docs.google.com/document/d/17QhpRgrozE3ZZsFBizJNyipnE-AXzO-qaewx7TUlNto/edit#heading=h.c6uv5nikp79h) setup your NodeMCU.
